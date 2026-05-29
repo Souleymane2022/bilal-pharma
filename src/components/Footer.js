@@ -96,8 +96,8 @@ export default function Footer() {
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} BILAL PHARMA. Tous droits réservés.
           </p>
-          <p className="text-white/40 text-xs">
-            Agence Agréée de Promotion et D'enregistrement des Produits Pharmaceutiques
+          <p className="text-white/40 text-xs italic">
+            Ensemble, faisons avancer la santé !
           </p>
         </div>
       </div>

@@ -1,53 +1,85 @@
 import {
-  ClipboardList,
-  Megaphone,
-  Scale,
-  BookOpen,
-  Microscope,
-  Globe,
+  TrendingUp,
+  GraduationCap,
+  Newspaper,
+  FileImage,
+  BarChart2,
+  Share2,
+  Calendar,
+  Shield,
+  Network,
+  Activity,
 } from "lucide-react";
 
 const services = [
   {
-    icon: <ClipboardList size={28} />,
-    title: "Enregistrement de Médicaments",
+    icon: <TrendingUp size={28} />,
+    title: "Stratégies de Marketing Pharmaceutique",
     description:
-      "Accompagnement complet dans le processus d'enregistrement et d'homologation de vos produits pharmaceutiques auprès des autorités compétentes tchadiennes.",
+      "Élaboration de campagnes de marketing sur mesure pour promouvoir efficacement les produits pharmaceutiques, en utilisant des canaux traditionnels et numériques.",
     color: "blue",
   },
   {
-    icon: <Megaphone size={28} />,
-    title: "Promotion Pharmaceutique",
+    icon: <GraduationCap size={28} />,
+    title: "Éducation Médicale et Formation",
     description:
-      "Stratégies de promotion ciblées pour vos médicaments et produits de santé, en conformité avec les réglementations en vigueur au Tchad.",
+      "Organisation de sessions de formation et de séminaires pour les professionnels de santé afin de les informer sur les nouveaux produits, les études cliniques et les meilleures pratiques.",
     color: "green",
   },
   {
-    icon: <Scale size={28} />,
-    title: "Conseil Réglementaire",
+    icon: <Newspaper size={28} />,
+    title: "Gestion des Relations Publiques",
     description:
-      "Expertise et conseil en matière de réglementation pharmaceutique locale et internationale pour sécuriser vos démarches administratives.",
+      "Création et diffusion de communiqués de presse, gestion de la réputation de la marque et relations avec les médias pour renforcer la visibilité des produits.",
     color: "blue",
   },
   {
-    icon: <BookOpen size={28} />,
-    title: "Dossiers d'Homologation",
+    icon: <FileImage size={28} />,
+    title: "Élaboration de Supports de Communication",
     description:
-      "Constitution et suivi de vos dossiers d'homologation : documentation technique, études cliniques, données qualité et sécurité.",
+      "Conception de brochures, dépliants, vidéos et autres supports destinés à informer les professionnels de santé et les patients sur les caractéristiques et les avantages des produits.",
     color: "green",
   },
   {
-    icon: <Microscope size={28} />,
-    title: "Veille Réglementaire",
+    icon: <BarChart2 size={28} />,
+    title: "Analyse et Études de Marché",
     description:
-      "Surveillance continue des évolutions réglementaires pour anticiper les changements et maintenir la conformité de vos produits.",
+      "Réalisation d'études de marché pour comprendre les tendances, les besoins des consommateurs et la concurrence, afin d'orienter les stratégies de promotion.",
     color: "blue",
   },
   {
-    icon: <Globe size={28} />,
-    title: "Expansion Sous-Régionale",
+    icon: <Share2 size={28} />,
+    title: "Gestion des Réseaux Sociaux",
     description:
-      "Accompagnement dans l'extension de vos activités aux marchés pharmaceutiques de la sous-région Afrique Centrale.",
+      "Développement de stratégies de communication sur les réseaux sociaux pour engager les professionnels de santé et les patients, en partageant des contenus éducatifs et informatifs.",
+    color: "green",
+  },
+  {
+    icon: <Calendar size={28} />,
+    title: "Planification d'Événements",
+    description:
+      "Organisation de congrès, de tables rondes et d'autres événements pour favoriser les échanges entre les acteurs du secteur et promouvoir les produits.",
+    color: "blue",
+  },
+  {
+    icon: <Shield size={28} />,
+    title: "Support à la Conformité Réglementaire",
+    description:
+      "Assistance dans le respect des réglementations en matière de promotion des médicaments, y compris la création de documents conformes aux normes éthiques et légales.",
+    color: "green",
+  },
+  {
+    icon: <Network size={28} />,
+    title: "Partenariats Stratégiques",
+    description:
+      "Mise en relation avec des acteurs clés du secteur, tels que des médecins, des hôpitaux et d'autres institutions de santé, pour créer des synergies et élargir la portée des produits.",
+    color: "blue",
+  },
+  {
+    icon: <Activity size={28} />,
+    title: "Suivi et Analyse des Performances",
+    description:
+      "Évaluation des résultats des campagnes de promotion, collecte de données et ajustement des stratégies en fonction des performances pour maximiser le retour sur investissement.",
     color: "green",
   },
 ];
@@ -101,6 +133,14 @@ export default function Services() {
               </div>
             );
           })}
+        </div>
+
+        {/* Conclusion */}
+        <div className="mt-12 text-center max-w-3xl mx-auto">
+          <p className="text-gray-500 italic text-sm leading-relaxed border-t border-gray-200 pt-8">
+            Les services offerts par BILAL PHARMA visent à maximiser la visibilité et l'impact
+            de vos produits sur le marché tout en respectant les normes éthiques et réglementaires.
+          </p>
         </div>
       </div>
     </section>

@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
 const points = [
-  "Agence officiellement agréée par les autorités sanitaires du Tchad",
-  "Expertise en promotion et enregistrement de produits pharmaceutiques",
-  "Accompagnement des laboratoires dans leurs démarches réglementaires",
-  "Présence au cœur de N'Djaména pour servir toute la région",
+  "Stratégies de promotion : campagnes sur mesure adaptées à vos besoins",
+  "Formation et accompagnement des équipes de vente et des professionnels de santé",
+  "Études de marché : analyse approfondie des tendances et des comportements des prescripteurs",
+  "Communication digitale : contenus attractifs sur les réseaux sociaux et plateformes en ligne",
 ];
 
 export default function About() {
@@ -78,18 +78,21 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              Fondée et dirigée par{" "}
-              <strong className="text-bp-blue">Dr. BILAL KAZALI ADAM</strong>,
-              BILAL PHARMA est une agence agréée implantée à N'Djaména,
-              République du Tchad. Nous accompagnons les laboratoires
-              pharmaceutiques nationaux et internationaux dans leurs processus
-              de promotion et d'enregistrement de médicaments.
+              Chez <strong className="text-bp-blue">BILAL PHARMA</strong>, nous
+              sommes spécialisés dans la promotion et la communication des
+              produits pharmaceutiques. Notre équipe d'experts met à votre
+              disposition son savoir-faire pour vous aider à atteindre vos
+              objectifs marketing et à renforcer la visibilité de vos produits
+              sur le marché.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-8">
-              Notre mission est de faciliter l'accès aux médicaments de qualité
-              en assurant leur conformité aux normes réglementaires en vigueur
-              au Tchad et dans la sous-région africaine.
+              Dirigée par{" "}
+              <strong className="text-bp-blue">Dr. BILAL KAZALI ADAM</strong>,
+              notre agence implantée à N'Djaména accompagne les laboratoires
+              pharmaceutiques nationaux et internationaux avec une approche
+              personnalisée, innovante et rigoureusement conforme aux normes
+              éthiques et réglementaires en vigueur.
             </p>
 
             <ul className="space-y-4">

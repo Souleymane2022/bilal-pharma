@@ -64,16 +64,18 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6">
               <span className="text-white">Votre Partenaire</span>
               <br />
-              <span className="text-green-300">Pharmaceutique</span>
+              <span className="text-green-300">de Confiance</span>
               <br />
-              <span className="text-blue-200">de Confiance</span>
+              <span className="text-blue-200">en Promotion Pharmaceutique</span>
             </h1>
 
             <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-lg">
-              BILAL PHARMA est une agence agréée spécialisée dans la{" "}
-              <strong className="text-white">promotion</strong> et{" "}
-              <strong className="text-white">l'enregistrement</strong> des
-              produits pharmaceutiques au Tchad et dans la sous-région.
+              Chez BILAL PHARMA, nous sommes spécialisés dans la{" "}
+              <strong className="text-white">promotion</strong> et la{" "}
+              <strong className="text-white">communication</strong> des produits
+              pharmaceutiques. Notre équipe d'experts met son savoir-faire à
+              votre disposition pour renforcer la visibilité de vos produits sur le
+              marché.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">
