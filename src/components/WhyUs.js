@@ -70,7 +70,7 @@ export default function WhyUs() {
                     background:
                       i % 2 === 0
                         ? "linear-gradient(135deg, #1B3A8C, #2B5CE6)"
-                        : "linear-gradient(135deg, #1A6B3C, #27913A)",
+                        : "linear-gradient(135deg, #3CB83A, #4DC84B)",
                   }}
                 >
                   {reason.icon}
@@ -78,7 +78,7 @@ export default function WhyUs() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800 mb-2">{reason.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed text-justify">
                   {reason.description}
                 </p>
               </div>
@@ -90,7 +90,7 @@ export default function WhyUs() {
         <div
           className="mt-20 rounded-2xl p-8 md:p-12 text-white text-center"
           style={{
-            background: "linear-gradient(135deg, #1B3A8C 0%, #1A6B3C 100%)",
+            background: "linear-gradient(135deg, #1B3A8C 0%, #3CB83A 100%)",
           }}
         >
           <h3 className="text-2xl md:text-3xl font-black mb-4">

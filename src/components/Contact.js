@@ -102,11 +102,11 @@ export default function Contact() {
             <div
               className="rounded-2xl p-6 text-white"
               style={{
-                background: "linear-gradient(135deg, #1B3A8C, #1A6B3C)",
+                background: "linear-gradient(135deg, #1B3A8C, #3CB83A)",
               }}
             >
               <p className="text-white/70 text-sm mb-1">Directeur Général</p>
-              <p className="text-xl font-black">Dr. BILAL KAZALI ADAM</p>
+              <p className="text-xl font-black">Dr. BILAL KHAZALI ADAM</p>
               <p className="text-white/70 text-sm mt-2">
                 Agence Agréée de Promotion et D'enregistrement des Produits
                 Pharmaceutiques

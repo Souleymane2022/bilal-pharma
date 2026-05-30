@@ -127,7 +127,7 @@ export default function Services() {
                 >
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed text-justify">
                   {service.description}
                 </p>
               </div>

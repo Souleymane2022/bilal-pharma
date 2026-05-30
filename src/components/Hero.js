@@ -9,7 +9,7 @@ export default function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{
         background:
-          "linear-gradient(135deg, #0F2266 0%, #1B3A8C 40%, #1A6B3C 100%)",
+          "linear-gradient(135deg, #0F2266 0%, #1B3A8C 40%, #3CB83A 100%)",
       }}
     >
       {/* Motif décoratif */}
@@ -69,7 +69,7 @@ export default function Hero() {
               <span className="text-blue-200">en Promotion Pharmaceutique</span>
             </h1>
 
-            <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-lg">
+            <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-lg text-justify">
               Chez BILAL PHARMA, nous sommes spécialisés dans la{" "}
               <strong className="text-white">promotion</strong> et la{" "}
               <strong className="text-white">communication</strong> des produits
