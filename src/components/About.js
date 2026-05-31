@@ -23,7 +23,7 @@ export default function About() {
                 {/* Logo officiel */}
                 <div className="flex justify-center mb-6">
                   <Image
-                    src="/logo.jpg"
+                    src="/logo.png"
                     alt="BILAL PHARMA logo"
                     width={300}
                     height={100}

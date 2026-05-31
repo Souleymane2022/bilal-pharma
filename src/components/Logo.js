@@ -11,7 +11,7 @@ export default function Logo({ size = "md" }) {
 
   return (
     <Image
-      src="/logo.jpg"
+      src="/logo.png"
       alt="BILAL PHARMA – Agence Agréée de Promotion et d'Enregistrement des Produits Pharmaceutiques"
       width={d.w}
       height={d.h}
