@@ -1,5 +1,4 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import Logo from "./Logo";
 
 const links = [
   { label: "Accueil", href: "#accueil" },
@@ -14,10 +13,18 @@ export default function Footer() {
     <footer className="bg-bp-blue-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         <div className="grid md:grid-cols-3 gap-10 mb-12">
-          {/* Colonne 1 - Logo & description */}
+          {/* Colonne 1 - Nom & description */}
           <div>
             <div className="mb-5">
-              <Logo size="sm" showText={true} />
+              <div className="flex flex-col leading-none">
+                <span className="text-2xl font-black tracking-wider">
+                  <span className="text-white">BILAL</span>{" "}
+                  <span className="text-bp-green">PHARMA</span>
+                </span>
+                <span className="text-[10px] text-white/40 tracking-widest uppercase mt-1">
+                  Agence Pharmaceutique Agréée
+                </span>
+              </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed max-w-xs">
               Agence Agréée de Promotion et D'enregistrement des Produits
